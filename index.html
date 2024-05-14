@@ -21,6 +21,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        color: 'rgba(18, 18, 18, 0.60)',
                     }
                 }
             }
@@ -315,6 +316,55 @@
 
           
     </header>
+    <!-- main -->
+    <main class="max-w-7xl mx-auto mt-32">
+      <!-- deal section -->
+      <section>
+        <div class="flex flex-col md:flex-row justify-between gap-5">
+          <div>
+            <h3 class="font-lato text-5xl font-black mb-6">Deal of the day</h3>
+            <p class="font-lato text-color text-base font-normal max-w-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <!-- countdown -->
+          <div>
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col">
+                <span class="countdown font-lato text-5xl font-black">
+                  <span style="--value:29;"></span>
+                </span>
+                <span class="font-lato text-color ">
+                  Days
+                </span>
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-lato font-black text-5xl">
+                  <span style="--value:15;"></span>
+                </span>
+                <span class="font-lato text-color">
+                  Hours
+                </span>
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-lato text-5xl font-black">
+                  <span style="--value:25;"></span>
+                </span>
+                <span class="font-lato text-color">
+                  Minutes
+                </span>
+              </div> 
+              <div class="flex flex-col">
+                <span class="countdown font-lato text-5xl font-black">
+                  <span style="--value:08;"></span>
+                </span>
+                <span class="font-lato text-color">
+                  Seconds
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 </body>
 
 </html>
